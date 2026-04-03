@@ -1,0 +1,60 @@
+# ========================
+# Python / Flask Backend
+# ========================
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.*
+*.env
+
+# ========================
+# Uploaded / Biometric Data
+# ========================
+static/uploads/
+static/faces/
+
+# ========================
+# Test Data (Review first!)
+# ========================
+test_data/
+
+# ========================
+# Build / Dist output
+# ========================
+.dist/
+dist/
+build/
+
+# ========================
+# OS / Editor files
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+*.log
+
+# ========================
+# Database files
+# ========================
+*.db
+*.sqlite
+*.sqlite3
+
+# ========================
+# Jupyter/IPython
+# ========================
+.ipynb_checkpoints/
